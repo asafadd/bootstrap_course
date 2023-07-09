@@ -1,0 +1,57 @@
+body {
+    background-color: #121212;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #232f4d;
+    border: 1px solid yellow;
+  }
+  
+  label {
+    color: yellow;
+  }
+  
+  .form-control {
+    border: 0;
+    background-color: #2e425a;
+    color: #f4a909;
+  }
+  
+  .input-group-prepend,
+  .icon
+  {
+    background-color: #2e425a;
+    padding: 10px;
+    color: #f4a909;
+  }
+
+  .input-group:hover
+  {
+    border: 3px solid #f4a909
+  }
+
+
+  .form-control::placeholder,
+  input::placeholder {
+    color: #f4a909;
+    opacity: 1;
+  }
+  
+  .input-group
+  {
+    border: 2px solid #f4a909
+  }
+
+  .form-group
+  {
+    margin-top: 25px;
+  }
+
+  .btn-primary {
+    background-color: yellow;
+    color: darkblue;
+  }
+  
