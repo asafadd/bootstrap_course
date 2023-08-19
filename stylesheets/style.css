@@ -16,7 +16,17 @@ body {
     color: #f4a909;
   }
   
-  h2,svg,
+.profile-image
+{
+    border-radius: 50%;
+}
+
+p
+{
+  line-height: 0.4;
+  width: 100%;
+}
+
   .input-group-prepend,
   .icon
   {
@@ -39,7 +49,8 @@ body {
   
   .input-group
   {
-    border: 2px solid #f4a909
+    border: 2px solid #f4a909;
+    background-color: #2e425a;
   }
 
   .form-group
